@@ -1,0 +1,53 @@
+{
+    "terminal.integrated.profiles.windows": {
+        "Nushell": {
+            "path": "<path_to_nu_executable>"
+        }
+    },
+    "editor.formatOnSave": true,
+
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.handleKeys": {
+        "<C-b>": false,
+        "<C-j>": false,
+        "<C-f>": false,
+        "<C-k>": false
+    },
+    "vim.hlsearch": true,
+    "vim.leader": "<space>",
+    "vim.surround": true,
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                "L"
+            ],
+            "after": [
+                "$"
+            ]
+        },
+        {
+            "before": [
+                "H"
+            ],
+            "after": [
+                "^"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "w"
+            ],
+            "commands": [
+                "workbench.action.files.save"
+            ]
+        }
+    ],
+    "terminal.integrated.defaultProfile.windows": "Nushell",
+    "workbench.colorTheme": "GitHub Dark",
+    "window.zoomLevel": 1,
+    "python.defaultInterpreterPath": "<path_to_python_executable>"
+}
